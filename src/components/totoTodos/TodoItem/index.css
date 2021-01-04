@@ -1,0 +1,50 @@
+.listItem {
+    display: flex;
+    position: relative;
+    border: 1px solid #cccccc;
+    border-top: none;
+    height: 65px;
+    vertical-align: middle;
+}
+
+.check {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    user-select: none;
+    padding: 0 100px 0 80px;
+}
+
+.changVal {
+    box-sizing: border-box;
+    width: 500px;
+    height: 100%;
+    font-size: 24px;
+    padding-left: 30px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #7c848a;
+}
+
+.del {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
